@@ -1,0 +1,72 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container for Visitor Dashboard */
+.visitor-dashboard {
+    max-width: 500px;
+    margin: 40px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #6a0dad; /* Purple */
+}
+
+h3 {
+    color: #5a0ca8; /* Darker Purple */
+    margin-top: 20px;
+}
+
+/* Form Styles */
+form {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background: #6a0dad; /* Purple */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background: #5a0ca8; /* Darker Purple */
+}
+
+/* Visitor Status Message */
+#status-message {
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Logout Button */
+#logout {
+    margin-top: 20px;
+    background: red;
+}

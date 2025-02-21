@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visitor Dashboard</title>
+    <link rel="stylesheet" href="visitor dashboard.css">
+</head>
+<body>
+    <div class="visitor-dashboard">
+        <h2>Visitor Dashboard</h2>
+        
+        <div id="visitor-status">
+            <h3>Check Pre-Registration</h3>
+            <input type="email" id="check-email" placeholder="Enter your email">
+            <button onclick="checkPreRegistration()">Check</button>
+            <p id="status-message"></p>
+        </div>
+
+        <hr>
+
+        <div id="visitor-register">
+            <h3>New Visitor Registration</h3>
+            <form id="visitor-form">
+                <input type="text" id="visitor-name" placeholder="Full Name" required><br>
+                <input type="email" id="visitor-email" placeholder="Email" required><br>
+                <input type="text" id="purpose" placeholder="Purpose of Visit" required><br>
+                <input type="text" id="host" placeholder="Host Name" required><br>
+                <button type="submit">Register</button>
+            </form>
+        </div>
+
+        <button id="logout">Logout</button>
+    </div>
+
+    <script src="visitor dashboard.js"></script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visitor Registration</title>
+</head>
+<body>
+    <h2>Visitor Registration</h2>
+    <form id="visitor-form">
+        <input type="text" id="visitor-name" placeholder="Full Name" required>
+        <input type="text" id="purpose" placeholder="Purpose of Visit" required>
+        <input type="text" id="host" placeholder="Host Name" required>
+        <button type="submit">Complete Registration</button>
+    </form>
+    <script>
+        document.getElementById("visitor-form").addEventListener("submit", function(e) {
+            e.preventDefault();
+            alert("Visitor registration completed!");
+            window.location.href = "visitor.html"; // Now visitors go to visitor dashboard
+        });
+    </script>
+</body>
+</html>
